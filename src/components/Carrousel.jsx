@@ -9,7 +9,7 @@ export function Carrousel() {
         'https://via.placeholder.com/150/FF0000',
       ];
 
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [ setCurrentIndex] = useState(0);
 
   const handleSlideChange = useCallback((index) => {
     setCurrentIndex(index);

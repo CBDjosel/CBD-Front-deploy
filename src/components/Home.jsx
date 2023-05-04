@@ -2,7 +2,6 @@
 import React from 'react'
 import { Drag } from '../components/Drag';
 import { Buscador } from '../components/Buscador';
-import { Prueba } from '../components/Prueba';
 import {NavLink} from 'react-router-dom';
 
 
