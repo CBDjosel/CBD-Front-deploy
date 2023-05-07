@@ -2,17 +2,19 @@
 
 ##  IMPORTANTE 
 
-Yo a la hora de desplegar react y el server lo hago por separado. Saca la carpeta flask fuera en primer lugar. Abre dos terminales, en uno ejecuta flask y en el otro react.
+Para ejecutar el proyecto sebe hacerse en terminales por separado, ya que necesitamso un terminal libre para React y otro para el servidor Flask.
 
 ##  Scripts para arrancar el proyecto de React
 
-### `npm start`
+### `npm i` 
+Este comando se usa con el objetivo de actualizar e immportar las dependencias del proyecto.
 
-Te descargas el proyecto y te vas en la consola hasta */spa-cbd y ejecutas el comando, si no tienes instalado node.js te lo va a pedir, además de algo más seguramente
+### `npm start`
+Para arrancar el en un puerto vacío todo lo relacionado con React
 
 ##  Scripts para arrancar el servidor
 
-Para arrancar el servidor primero tienes que instalarte Flask y despues hacer el comando
+Para arrancar el servidor, primero debes instalarte Flask si aún no estuviese instalado y después ejecutar, en otra consola diferente a la anterior, el comando
 
 ### `server.py`
 
